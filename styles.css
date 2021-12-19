@@ -111,8 +111,9 @@ img{
 
     .image__section{
         padding: 1rem;
-        max-width: 55%;
+        max-width: 60%;
         margin: auto;
+        grid-template-columns: repeat(3,1fr);
         grid-auto-rows: 12rem;
     }
 
