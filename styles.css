@@ -95,3 +95,23 @@ img{
 .vertical{
     grid-row: span 2;
 }
+
+@media (min-width: 600px){
+
+    .profile__section{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .info{
+        max-width: 40%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .image__section{
+        max-width: 60%;
+        margin: auto;
+    }
+    
+}
