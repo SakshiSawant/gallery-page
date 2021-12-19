@@ -110,8 +110,10 @@ img{
     }
 
     .image__section{
-        max-width: 60%;
+        max-width: 55%;
         margin: auto;
+        grid-auto-rows: 12rem;
     }
     
 }
+
