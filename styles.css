@@ -79,14 +79,19 @@ img{
 }
 
 .images{
-    margin: 0rem 0.5rem;
+    margin: 0.3rem;
 }
 
 .images img{
     width: 100%;
+    height: 100%;
     border-radius: 12px;
 }
 
 .horizontal{
     grid-column: span 2;
+}
+
+.vertical{
+    grid-row: span 2;
 }
